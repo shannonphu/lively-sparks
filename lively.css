@@ -1,0 +1,170 @@
+body {
+  margin: 0; }
+
+/* SCROLLBAR */
+body::-webkit-scrollbar {
+  width: 5px; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: gray; }
+
+/* BODY */
+#description {
+  font-family: 'BenchNine', century;
+  font-size: 6vh;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  bottom: 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  /* LAPTOP */
+  /* TABLETS PORTRAIT*/ }
+  @media screen and (min-device-width: 1275px) and (max-device-width: 1600px) {
+    #description {
+      padding-top: 2%;
+      padding-bottom: 2%; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #description {
+      margin-left: -10%; } }
+  #description #sub-description {
+    font-size: 4vh; }
+
+.landing {
+  text-align: center;
+  padding-top: 20%;
+  width: 100%;
+  background: url(Images/sea.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* LAPTOP */ }
+  .landing a {
+    font-size: 500%;
+    color: black;
+    font-family: 'BenchNine', century;
+    text-decoration: none; }
+  .landing button {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: navy;
+    font-size: 1rem;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    padding: 0;
+    border: none;
+    outline: none; }
+
+#content .info {
+  height: 3rem;
+  width: 100%;
+  background-color: #51856B;
+  color: white;
+  font-family: 'BenchNine', century;
+  font-size: 150%;
+  padding: 10px;
+  text-align: center; }
+#content section {
+  background-color: #F4FFF8;
+  height: 15em;
+  width: 100%;
+  margin-bottom: 1rem; }
+#content .contact {
+  font-size: 6vh;
+  font-family: 'BenchNine', century;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center; }
+  #content .contact #contact-right {
+    background-color: #647073;
+    display: inline-block;
+    height: 15rem;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 1rem; }
+  #content .contact #contact-left {
+    width: 100%;
+    height: 15rem;
+    display: inline-block;
+    float: left;
+    background-color: #789F8E;
+    margin-bottom: 1rem; }
+
+#photoContent {
+  padding: 1em; }
+  #photoContent h3 {
+    font-size: 150%; }
+  #photoContent p {
+    font-size: 110%;
+    font-family: 'BenchNine', century; }
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #51856B;
+  font-family: 'BenchNine', century;
+  color: white;
+  font-size: 25px; }
+
+nav {
+  text-align: center;
+  font-family: arial;
+  z-index: 20;
+  background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  position: fixed;
+  /* FOR NON-LAPTOP DEVICES */
+  /* LAPTOP */ }
+  @media screen and (max-device-width: 1600px) {
+    nav {
+      width: 100%;
+      height: 6rem;
+      line-height: 6rem;
+      font-size: 300%; } }
+  @media screen and (min-device-width: 1275px) and (max-device-width: 1600px) {
+    nav {
+      margin: 0.5rem 0 0 0.5rem;
+      height: 2.5rem;
+      width: 2.5rem;
+      border-radius: 100%;
+      line-height: 2.5rem;
+      font-size: 100%; } }
+
+#sidebar {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 0;
+  font-family: 'BenchNine', century;
+  font-size: 150%;
+  min-width: 100px; }
+  @media screen and (min-device-width: 1275px) and (max-device-width: 1600px) {
+    #sidebar {
+      height: 100%;
+      position: fixed;
+      z-index: 20; } }
+  #sidebar a {
+    line-height: 3rem;
+    margin-left: 25%;
+    width: 100%;
+    position: relative;
+    color: darkgreen; }
+  #sidebar .sidebarLinks:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%; }
+    #sidebar .sidebarLinks:hover a {
+      color: white; }
+
+.part2-block .part2-indiv {
+  width: 100%;
+  height: 12rem;
+  background-color: white;
+  border: 2px solid #539987;
+  padding: 1em;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+  -webkit-transition: all ease-in 0.3s;
+  -moz-transition: all ease-in 0.3s;
+  -o-transition: all ease-in 0.3s;
+  transition: all ease-in 0.3s; }
+
+/*# sourceMappingURL=lively.css.map */
