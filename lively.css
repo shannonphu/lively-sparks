@@ -11,7 +11,7 @@ body::-webkit-scrollbar-thumb {
 /* BODY */
 #description {
   font-family: 'BenchNine', century;
-  font-size: 6vh;
+  font-size: 30px;
   text-align: center;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
@@ -28,7 +28,7 @@ body::-webkit-scrollbar-thumb {
     #description {
       margin-left: -10%; } }
   #description #sub-description {
-    font-size: 4vh; }
+    font-size: 25px; }
 
 .landing {
   text-align: center;
